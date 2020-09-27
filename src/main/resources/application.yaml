@@ -1,0 +1,5 @@
+jwt:
+  security:
+    prefix: Bearer
+    issuer: app.service.gateway
+    secret: HMAC256SECRETKEYFORAPPLICATION
